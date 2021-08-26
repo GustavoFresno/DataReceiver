@@ -1,0 +1,6 @@
+DataReceiver:
+  image: gjf/datareceiver
+  ports:
+    - "8080:80"
+    - "554:554"
+  restart: always
